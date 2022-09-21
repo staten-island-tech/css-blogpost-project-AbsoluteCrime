@@ -1,4 +1,8 @@
-body{
-  background-image:url(img/jack-ward-rknrvCrfS1k-unsplash.jpg);
-  background-size: cover;
+.card{
+  border: 5px solid black;
+  height: 40vh;
+  width: 50vh;
+}
+.title{
+  text-align: center;
 }
