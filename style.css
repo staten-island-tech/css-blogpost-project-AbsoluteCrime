@@ -1,25 +1,60 @@
-.card1,.card2,.card3{
+.blogtitle{
+  text-align: center;
+  margin-top: 5vh;
+}
+.card1,
+.card2,
+.card3 {
   border: 5px solid black;
-  height: 40vh;
+  height: auto;
   width: 50vh;
   box-sizing: border-box;
 }
+.card1 {
+  position: absolute;
+  top: 25vh;
+  left: 5vw;
+}
+.card2 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 25vh;
+}
+.card3 {
+  position: absolute;
+  top: 25vh;
+  right: 5vw;
+}
+.preview {
+  text-align: center;
+  color: gray;
+}
+.link {
+  text-align: center;
+}
+.image {
+  height: 20vh;
+  width: auto;
+  background-color: red;
+}
+.title {
+  text-align: center;
+}
+/* .card1{
+  position: relative;
+  left: 10vw;
+}
 .card2{
   position: relative;
-  left: 60vh;
+  left: 40vw;
+  top: -40vh;
+}
+.card3{
+  position: relative;
 }
 .title{
   text-align: center;
-}
-.preview{
-  text-align: center;
-  color: gray
-}
-.link{
-  text-align: center;
-}
-.image{
-  height:20vh;
-  width: 49vh;
-  background-color: red;
-}
+} */
