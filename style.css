@@ -1,6 +1,11 @@
+body{
+  background-color: #e5e3e5;
+  font-family: 'B612 Mono', monospace;
+}
 .blogtitle{
   text-align: center;
   margin-top: 5vh;
+  padding: 10px;
 }
 .card1,
 .card2,
@@ -9,6 +14,8 @@
   height: auto;
   width: 50vh;
   box-sizing: border-box;
+  background-color: white;
+  color:#c22c67
 }
 .card1 {
   position: absolute;
@@ -35,26 +42,24 @@
 .link {
   text-align: center;
 }
-.image {
+.image1 {
   height: 20vh;
   width: auto;
-  background-color: red;
+  background-image: url(img/new-york-university_180.jpg);
+  background-size: cover;
+}
+.image2 {
+  height: 20vh;
+  width: auto;
+  background-image: url(img/Morningside\ Campus\ at\ Dusk\ 2.jpg);
+  background-size: cover;
+}
+.image3 {
+  height: 20vh;
+  width: auto;
+  background-image: url(img/Barnard.png);
+  background-size: cover;
 }
 .title {
   text-align: center;
 }
-/* .card1{
-  position: relative;
-  left: 10vw;
-}
-.card2{
-  position: relative;
-  left: 40vw;
-  top: -40vh;
-}
-.card3{
-  position: relative;
-}
-.title{
-  text-align: center;
-} */
